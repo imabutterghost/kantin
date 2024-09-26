@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #eee;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+}
+
+nav ul li a.current {
+    color: #d9534f;
+}
+
+/* Courses Section */
+.courses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+article {
+    width: 48%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+hgroup h2 {
+    font-size: 1.8em;
+    color: #444;
+    margin: 10px 0;
+}
+
+hgroup h3 {
+    font-size: 1.2em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+/* Sidebar */
+aside {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.popular-menus h2,
+.coontact-details h2 {
+    font-size: 1.5em;
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.popular-menus a {
+    display: block;
+    margin-bottom: 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.popular-menus a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.coontact-details p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #eee;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    font-size: 1em;
+    color: #666;
+}
+
+</style>
+<html>
+    <div class="wrapper">
+        <header>
+            <h1>Kantin Informatics</h1>
+            <nav>
+                <ul>
+                    <li><a href="" class="current">Beranda</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="https://i.makeagif.com/media/9-15-2015/iqWdm-.gif" alt="Nasi Goreng"/>
+                </figure>
+                <hgroup>
+                    <h2>Nasi Goreng</h2>
+                    <h3>Nasi Digoreng</h3>
+                </hgroup>
+                <p>Nasi goreng adalah makanan yang terbuat dari nasi yang digoreng dengan
+                    bawang putih, garam, cabai, lada, saus tiram, dan yang terpenting adalah
+                    kecap manis yang hitam.
+                </p>
+                <h4>Rp.13.000,00</h4>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/07/26/1202306/540x270/cara-membuat-pangsit-goreng-ala-le-gino-yang-viral-gampang-banget.gif" alt="Kwetiau"/>
+                </figure>
+                <hgroup>
+                    <h2>Kwetiau</h2>
+                    <h3>Mie transparan</h3>
+                </hgroup>
+                <p>Kwetiau adalah masakan cina dengan mie yang pipih seperti 
+                    transparan, digoreng dengan kecap dan sebagainya.</p>
+                    <h4>Rp.16.000,00</h4>
+            </article>
+        </section>
+        <aside>
+            <section class="popular-menus">
+                <h2>Menu Populer</h2>
+                <a href="">Steak Ayam</a>
+                <a href="">Nasi Campur</a>
+                <a href="">Bakso Kuah</a>
+                <a href="">Bakpao Goreng</a>
+                <a href="">Batagor</a>
+            </section>
+            <section class="coontact-details">
+                <h2>Kontak</h2>
+                <p>Kantin Informatics<br />
+                Departemen Teknik Informatika, ITS</p>
+            </section>
+        </aside>
+        <footer>
+            &copy; 2024 Kantin Informatics
+        </footer>
+    </div>
+</html>
